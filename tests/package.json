@@ -1,0 +1,15 @@
+{
+  "name": "automationexercise-tests",
+  "version": "1.0.0",
+  "description": "BDD tests for AutomationExercise.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "author": "AI Assistant",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^7.0.0",
+    "@playwright/test": "^1.12.0"
+  }
+}
