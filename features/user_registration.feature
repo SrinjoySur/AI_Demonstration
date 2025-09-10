@@ -1,26 +1,29 @@
 Feature: User Registration
+  As a new user,
+  I want to register an account,
+  So that I can access personalized features and services.
 
   Scenario: Successful registration with valid email and password
-    Given the user is on the registration page
-    When the user enters a valid email "user@example.com" and a valid password "Password123!"
-    And the user submits the registration form
-    Then the user should be successfully registered
-    And the user should see a confirmation message
+    Given I am on the registration page
+    When I enter a valid email "user@example.com" and a valid password "Password123!"
+    And I click the register button
+    Then I should be successfully registered
+    And I should be redirected to the welcome page
 
-  Scenario: Registration fails with invalid email format
-    Given the user is on the registration page
-    When the user enters an invalid email "userexample.com" and a valid password "Password123!"
-    And the user submits the registration form
-    Then the user should see an error message indicating the email is invalid
+  Scenario: Registration with invalid email format
+    Given I am on the registration page
+    When I enter an invalid email "userexample.com" and a valid password "Password123!"
+    And I click the register button
+    Then I should see an error message indicating the email format is incorrect
 
-  Scenario: Registration fails with password not meeting requirements
-    Given the user is on the registration page
-    When the user enters a valid email "user@example.com" and an invalid password "pass"
-    And the user submits the registration form
-    Then the user should see an error message indicating the password criteria
+  Scenario: Registration with password that does not meet requirements
+    Given I am on the registration page
+    When I enter a valid email "user@example.com" and an invalid password "pass"
+    And I click the register button
+    Then I should see an error message indicating the password requirements
 
-  Scenario: Registration fails with email already in use
-    Given the user is on the registration page
-    When the user enters an email "existinguser@example.com" that is already registered and a valid password "Password123!"
-    And the user submits the registration form
-    Then the user should see an error message indicating the email is already registered
+  Scenario: Registration with already registered email
+    Given I am on the registration page
+    When I enter an already registered email "existinguser@example.com" and a valid password "Password123!"
+    And I click the register button
+    Then I should see an error message indicating the email is already registered
