@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js"
+    "test": "cucumber-js --config cucumber.js",
+    "test:password-reset": "cucumber-js --config cucumber.js --name 'Password Reset'"
   },
   "keywords": [],
   "author": "",
