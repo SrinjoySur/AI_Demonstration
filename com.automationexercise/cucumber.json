@@ -10,7 +10,7 @@
 
         "require": [
 
-            "step_definitions/*.step.js"
+            "steps/*.js"
 
         ],
 
