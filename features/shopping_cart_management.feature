@@ -1,21 +1,26 @@
 Feature: Shopping Cart Management
+  As a shopper,
+  I want to manage items in my shopping cart,
+  So that I can review and modify my purchase before checkout.
 
-  Scenario: Adding an item to the shopping cart
-    Given the user is on the product page
-    When the user adds the item to the cart
-    Then the item should be listed in the shopping cart
+  Scenario: Add item to cart
+    Given I am on a product page
+    When I click the "Add to cart" button
+    Then the item should appear in the cart with correct details
 
-  Scenario: Removing an item from the shopping cart
-    Given the user is on the shopping cart page
-    When the user removes the item from the cart
-    Then the item should no longer be listed in the shopping cart
+  Scenario: Remove item from cart
+    Given I have items in my shopping cart
+    When I click the "Remove" button for an item
+    Then the item should be removed and the cart updated
 
-  Scenario: Updating the quantity of an item in the shopping cart
-    Given the user is on the shopping cart page
-    When the user updates the quantity of the item to "2"
-    Then the shopping cart should reflect the updated quantity and total price
+  Scenario: Update item quantity in cart
+    Given I have items in my shopping cart
+    When I update the quantity of an item to "2"
+    Then the cart should reflect the new quantity
+    And the total price should be updated
 
-  Scenario: Applying a discount code to the shopping cart
-    Given the user is on the shopping cart page
-    When the user applies a valid discount code "DISCOUNT10"
+  Scenario: Apply discount code
+    Given I have items in my shopping cart
+    When I enter a valid discount code "DISCOUNT10"
+    And I click the "Apply" button
     Then the total price should be updated to reflect the discount
