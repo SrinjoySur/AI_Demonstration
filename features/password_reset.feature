@@ -1,25 +1,29 @@
 Feature: Password Reset
+  As a registered user,
+  I want to reset my password,
+  So that I can regain access to my account if I forget my password.
 
-  Scenario: Requesting a password reset link with valid email
-    Given the user is on the password reset page
-    When the user enters a valid email "user@example.com"
-    And the user submits the password reset request
-    Then the user should receive a password reset link via email
+  Scenario: Request password reset with valid email
+    Given I am on the password reset page
+    When I enter a valid email "user@example.com"
+    And I click the "Send reset link" button
+    Then I should receive a password reset link via email
 
-  Scenario: Requesting a password reset link with invalid email
-    Given the user is on the password reset page
-    When the user enters an invalid email "userexample.com"
-    And the user submits the password reset request
-    Then the user should see an error message indicating the email is invalid
+  Scenario: Request password reset with invalid email
+    Given I am on the password reset page
+    When I enter an invalid email "user@invalid"
+    And I click the "Send reset link" button
+    Then I should see an error message "Email is not registered"
 
-  Scenario: Setting a new password with valid reset link
-    Given the user has received a valid password reset link
-    When the user clicks the link within the valid time frame
-    And the user sets a new password "NewPassword123!"
-    Then the user should be able to log in with the new password
+  Scenario: Reset password with valid link
+    Given I have received a password reset link
+    When I click the link within the valid time frame
+    And I enter a new valid password "NewPassword123!"
+    And I click the "Reset password" button
+    Then I should be able to set a new password
+    And I should see a confirmation message "Password reset successful"
 
-  Scenario: Attempting to use an expired password reset link
-    Given the user has received an expired password reset link
-    When the user clicks the link after it has expired
-    Then the user should see a message indicating the link is expired
-    And the user should be prompted to request a new link
+  Scenario: Reset password with expired link
+    Given I have received a password reset link
+    When I click the link after the valid time frame
+    Then I should see a message "Password reset link has expired"
