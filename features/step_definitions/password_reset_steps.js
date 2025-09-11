@@ -48,7 +48,7 @@ When('the user submits the password reset form', async function () {
   await page.click('button[type="submit"]');
 });
 
-Then('the user's password should be successfully updated', async function () {
+Then("the user's password should be successfully updated", async function () {
   const successMessage = await page.textContent('.success-message');
   expect(successMessage).toContain('Password successfully updated');
 });

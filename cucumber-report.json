@@ -1,0 +1,1566 @@
+[
+  {
+    "description": "  As a user\n  I want to checkout my cart\n  So that I can place an order",
+    "elements": [
+      {
+        "description": "",
+        "id": "checkout-process;place-order:-register-while-checkout",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Place order: Register while checkout",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I have products in my cart",
+            "match": {
+              "location": "features\\step_definitions\\checkout_process_steps.js:4"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1295599,
+              "error_message": "ReferenceError: page is not defined\n    at World.<anonymous> (C:\\Users\\SrinjoySur\\Personal_Practice\\AI_Demonstration\\features\\step_definitions\\checkout_process_steps.js:6:3)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I click \"Proceed To Checkout\" button",
+            "match": {
+              "location": "features\\step_definitions\\checkout_process_steps.js:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I click \"Register / Login\" button",
+            "match": {
+              "location": "features\\step_definitions\\checkout_process_steps.js:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I register a new account",
+            "match": {
+              "location": "features\\step_definitions\\checkout_process_steps.js:19"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click \"Cart\" button",
+            "match": {
+              "location": "features\\step_definitions\\checkout_process_steps.js:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I click \"Proceed To Checkout\" button",
+            "match": {
+              "location": "features\\step_definitions\\checkout_process_steps.js:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should see my address details",
+            "match": {
+              "location": "features\\step_definitions\\checkout_process_steps.js:58"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I should see my order details",
+            "match": {
+              "location": "features\\step_definitions\\checkout_process_steps.js:62"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I enter description in comment text area",
+            "match": {
+              "location": "features\\step_definitions\\checkout_process_steps.js:66"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I click \"Place Order\" button",
+            "match": {
+              "location": "features\\step_definitions\\checkout_process_steps.js:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I enter payment details",
+            "match": {
+              "location": "features\\step_definitions\\checkout_process_steps.js:70"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I click \"Pay and Confirm Order\" button",
+            "match": {
+              "location": "features\\step_definitions\\checkout_process_steps.js:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I should see \"Your order has been placed successfully!\" message",
+            "match": {
+              "location": "features\\step_definitions\\checkout_process_steps.js:78"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "checkout-process;place-order:-login-before-checkout",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Place order: Login before checkout",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "I have products in my cart",
+            "match": {
+              "location": "features\\step_definitions\\checkout_process_steps.js:4"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 297599,
+              "error_message": "ReferenceError: page is not defined\n    at World.<anonymous> (C:\\Users\\SrinjoySur\\Personal_Practice\\AI_Demonstration\\features\\step_definitions\\checkout_process_steps.js:6:3)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I click \"Proceed To Checkout\" button",
+            "match": {
+              "location": "features\\step_definitions\\checkout_process_steps.js:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I click \"Register / Login\" button",
+            "match": {
+              "location": "features\\step_definitions\\checkout_process_steps.js:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I login with valid credentials",
+            "match": {
+              "location": "features\\step_definitions\\checkout_process_steps.js:52"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I click \"Cart\" button",
+            "match": {
+              "location": "features\\step_definitions\\checkout_process_steps.js:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "I click \"Proceed To Checkout\" button",
+            "match": {
+              "location": "features\\step_definitions\\checkout_process_steps.js:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "I should see my address details",
+            "match": {
+              "location": "features\\step_definitions\\checkout_process_steps.js:58"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "I should see my order details",
+            "match": {
+              "location": "features\\step_definitions\\checkout_process_steps.js:62"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "I enter description in comment text area",
+            "match": {
+              "location": "features\\step_definitions\\checkout_process_steps.js:66"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "I click \"Place Order\" button",
+            "match": {
+              "location": "features\\step_definitions\\checkout_process_steps.js:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "I enter payment details",
+            "match": {
+              "location": "features\\step_definitions\\checkout_process_steps.js:70"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "I click \"Pay and Confirm Order\" button",
+            "match": {
+              "location": "features\\step_definitions\\checkout_process_steps.js:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "I should see \"Your order has been placed successfully!\" message",
+            "match": {
+              "location": "features\\step_definitions\\checkout_process_steps.js:78"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "checkout-process",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Checkout Process",
+    "tags": [],
+    "uri": "features\\checkout_process.feature"
+  },
+  {
+    "description": "  As a registered user\n  I want to log in to the website\n  So that I can access my account",
+    "elements": [
+      {
+        "description": "",
+        "id": "user-login;login-with-correct-credentials",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Login with correct credentials",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am on the home page",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I click on the \"Signup / Login\" button",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should see \"Login to your account\" section",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I enter correct email and password",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click the \"Login\" button",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should see \"Logged in as\" with my username",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "user-login;login-with-incorrect-credentials",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Login with incorrect credentials",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I am on the home page",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I click on the \"Signup / Login\" button",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I should see \"Login to your account\" section",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I enter incorrect email and password",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I click the \"Login\" button",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I should see \"Your email or password is incorrect!\" error message",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "user-login;logout-user",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Logout User",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "I am logged in to the website",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "I click on the \"Logout\" button",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "I should be redirected to the login page",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I should not see \"Logged in as\" with my username",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "user-login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "User Login",
+    "tags": [],
+    "uri": "features\\login_user.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "password-reset;successful-password-reset-request-with-valid-email",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Successful password reset request with valid email",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the password reset page",
+            "match": {
+              "location": "features\\step_definitions\\password_reset_steps.js:4"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 443399,
+              "error_message": "ReferenceError: page is not defined\n    at World.<anonymous> (C:\\Users\\SrinjoySur\\Personal_Practice\\AI_Demonstration\\features\\step_definitions\\password_reset_steps.js:5:3)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user enters a valid email",
+            "match": {
+              "location": "features\\step_definitions\\password_reset_steps.js:8"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user submits the password reset request",
+            "match": {
+              "location": "features\\step_definitions\\password_reset_steps.js:16"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the user should receive a password reset link via email",
+            "match": {
+              "location": "features\\step_definitions\\password_reset_steps.js:20"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "password-reset;password-reset-request-failure-due-to-invalid-email",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Password reset request failure due to invalid email",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "the user is on the password reset page",
+            "match": {
+              "location": "features\\step_definitions\\password_reset_steps.js:4"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 299700,
+              "error_message": "ReferenceError: page is not defined\n    at World.<anonymous> (C:\\Users\\SrinjoySur\\Personal_Practice\\AI_Demonstration\\features\\step_definitions\\password_reset_steps.js:5:3)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "the user enters an invalid email",
+            "match": {
+              "location": "features\\step_definitions\\password_reset_steps.js:12"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the user submits the password reset request",
+            "match": {
+              "location": "features\\step_definitions\\password_reset_steps.js:16"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "the user should see an error message indicating the email is not registered",
+            "match": {
+              "location": "features\\step_definitions\\password_reset_steps.js:25"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "password-reset;successful-password-reset-using-the-reset-link",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Successful password reset using the reset link",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "the user has received the password reset email",
+            "match": {
+              "location": "features\\step_definitions\\password_reset_steps.js:30"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 299200,
+              "error_message": "ReferenceError: page is not defined\n    at World.<anonymous> (C:\\Users\\SrinjoySur\\Personal_Practice\\AI_Demonstration\\features\\step_definitions\\password_reset_steps.js:32:3)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "the user clicks the reset link",
+            "match": {
+              "location": "features\\step_definitions\\password_reset_steps.js:35"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "the user should be directed to a page to enter a new password",
+            "match": {
+              "location": "features\\step_definitions\\password_reset_steps.js:39"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "password-reset;successful-password-update-with-valid-new-password",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Successful password update with valid new password",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "the user is on the password reset page",
+            "match": {
+              "location": "features\\step_definitions\\password_reset_steps.js:4"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 554899,
+              "error_message": "ReferenceError: page is not defined\n    at World.<anonymous> (C:\\Users\\SrinjoySur\\Personal_Practice\\AI_Demonstration\\features\\step_definitions\\password_reset_steps.js:5:3)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "the user enters a new password that meets the requirements",
+            "match": {
+              "location": "features\\step_definitions\\password_reset_steps.js:43"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "the user submits the password reset form",
+            "match": {
+              "location": "features\\step_definitions\\password_reset_steps.js:47"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "the user's password should be successfully updated",
+            "match": {
+              "location": "features\\step_definitions\\password_reset_steps.js:51"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "password-reset",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Password Reset",
+    "tags": [],
+    "uri": "features\\password_reset.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "product-search-and-filtering;successful-product-search-with-valid-search-term",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Successful product search with valid search term",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the product search page",
+            "match": {
+              "location": "features\\step_definitions\\product_search_filtering_steps.js:4"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 396900,
+              "error_message": "ReferenceError: page is not defined\n    at World.<anonymous> (C:\\Users\\SrinjoySur\\Personal_Practice\\AI_Demonstration\\features\\step_definitions\\product_search_filtering_steps.js:5:3)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user enters a valid search term",
+            "match": {
+              "location": "features\\step_definitions\\product_search_filtering_steps.js:8"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user submits the search",
+            "match": {
+              "location": "features\\step_definitions\\product_search_filtering_steps.js:16"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the user should see a list of matching products",
+            "match": {
+              "location": "features\\step_definitions\\product_search_filtering_steps.js:20"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "product-search-and-filtering;no-results-found-for-invalid-search-term",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "No results found for invalid search term",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "the user is on the product search page",
+            "match": {
+              "location": "features\\step_definitions\\product_search_filtering_steps.js:4"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 156799,
+              "error_message": "ReferenceError: page is not defined\n    at World.<anonymous> (C:\\Users\\SrinjoySur\\Personal_Practice\\AI_Demonstration\\features\\step_definitions\\product_search_filtering_steps.js:5:3)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "the user enters an invalid search term",
+            "match": {
+              "location": "features\\step_definitions\\product_search_filtering_steps.js:12"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the user submits the search",
+            "match": {
+              "location": "features\\step_definitions\\product_search_filtering_steps.js:16"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "the user should see a message indicating no results found",
+            "match": {
+              "location": "features\\step_definitions\\product_search_filtering_steps.js:25"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "product-search-and-filtering;successful-product-filtering",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Successful product filtering",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "the user is on the product search page",
+            "match": {
+              "location": "features\\step_definitions\\product_search_filtering_steps.js:4"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 435699,
+              "error_message": "ReferenceError: page is not defined\n    at World.<anonymous> (C:\\Users\\SrinjoySur\\Personal_Practice\\AI_Demonstration\\features\\step_definitions\\product_search_filtering_steps.js:5:3)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "the user applies filters",
+            "match": {
+              "location": "features\\step_definitions\\product_search_filtering_steps.js:30"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "the user should see products that match the selected filters",
+            "match": {
+              "location": "features\\step_definitions\\product_search_filtering_steps.js:37"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "product-search-and-filtering;pagination-of-search-results",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Pagination of search results",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "the user is on the product search page",
+            "match": {
+              "location": "features\\step_definitions\\product_search_filtering_steps.js:4"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 463600,
+              "error_message": "ReferenceError: page is not defined\n    at World.<anonymous> (C:\\Users\\SrinjoySur\\Personal_Practice\\AI_Demonstration\\features\\step_definitions\\product_search_filtering_steps.js:5:3)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "there are more results than can be displayed on one page",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "the user should be able to navigate through paginated results",
+            "match": {
+              "location": "features\\step_definitions\\product_search_filtering_steps.js:42"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "product-search-and-filtering",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Product Search and Filtering",
+    "tags": [],
+    "uri": "features\\product_search_filtering.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "shopping-cart-management;adding-an-item-to-the-shopping-cart",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Adding an item to the shopping cart",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the product page",
+            "match": {
+              "location": "features\\step_definitions\\shopping_cart_management_steps.js:4"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 272600,
+              "error_message": "ReferenceError: page is not defined\n    at World.<anonymous> (C:\\Users\\SrinjoySur\\Personal_Practice\\AI_Demonstration\\features\\step_definitions\\shopping_cart_management_steps.js:5:3)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user adds an item to the cart",
+            "match": {
+              "location": "features\\step_definitions\\shopping_cart_management_steps.js:8"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the item should appear in the cart with the correct quantity",
+            "match": {
+              "location": "features\\step_definitions\\shopping_cart_management_steps.js:12"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "shopping-cart-management;removing-an-item-from-the-shopping-cart",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Removing an item from the shopping cart",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "the user is on the shopping cart page",
+            "match": {
+              "location": "features\\step_definitions\\shopping_cart_management_steps.js:18"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 246100,
+              "error_message": "ReferenceError: page is not defined\n    at World.<anonymous> (C:\\Users\\SrinjoySur\\Personal_Practice\\AI_Demonstration\\features\\step_definitions\\shopping_cart_management_steps.js:19:3)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "the user removes an item from the cart",
+            "match": {
+              "location": "features\\step_definitions\\shopping_cart_management_steps.js:22"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the item should be removed and the cart updated",
+            "match": {
+              "location": "features\\step_definitions\\shopping_cart_management_steps.js:26"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "shopping-cart-management;updating-the-quantity-of-an-item-in-the-shopping-cart",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Updating the quantity of an item in the shopping cart",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "the user is on the shopping cart page",
+            "match": {
+              "location": "features\\step_definitions\\shopping_cart_management_steps.js:18"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 232799,
+              "error_message": "ReferenceError: page is not defined\n    at World.<anonymous> (C:\\Users\\SrinjoySur\\Personal_Practice\\AI_Demonstration\\features\\step_definitions\\shopping_cart_management_steps.js:19:3)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "the user updates the quantity of an item",
+            "match": {
+              "location": "features\\step_definitions\\shopping_cart_management_steps.js:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "the cart should reflect the new quantity and update the total price",
+            "match": {
+              "location": "features\\step_definitions\\shopping_cart_management_steps.js:36"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "shopping-cart-management;applying-a-discount-code-to-the-shopping-cart",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Applying a discount code to the shopping cart",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "the user is on the shopping cart page",
+            "match": {
+              "location": "features\\step_definitions\\shopping_cart_management_steps.js:18"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 235899,
+              "error_message": "ReferenceError: page is not defined\n    at World.<anonymous> (C:\\Users\\SrinjoySur\\Personal_Practice\\AI_Demonstration\\features\\step_definitions\\shopping_cart_management_steps.js:19:3)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "the user applies a discount code",
+            "match": {
+              "location": "features\\step_definitions\\shopping_cart_management_steps.js:41"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "the total price should be updated to reflect the discount",
+            "match": {
+              "location": "features\\step_definitions\\shopping_cart_management_steps.js:46"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "shopping-cart-management",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Shopping Cart Management",
+    "tags": [],
+    "uri": "features\\shopping_cart_management.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "user-registration;successful-registration-with-valid-email-and-password",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Successful registration with valid email and password",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the registration page",
+            "match": {
+              "location": "features\\step_definitions\\user_registration_steps.js:4"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 301100,
+              "error_message": "ReferenceError: page is not defined\n    at World.<anonymous> (C:\\Users\\SrinjoySur\\Personal_Practice\\AI_Demonstration\\features\\step_definitions\\user_registration_steps.js:5:3)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user enters a valid email and password",
+            "match": {
+              "location": "features\\step_definitions\\user_registration_steps.js:8"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user submits the registration form",
+            "match": {
+              "location": "features\\step_definitions\\user_registration_steps.js:28"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the user should be successfully registered",
+            "match": {
+              "location": "features\\step_definitions\\user_registration_steps.js:32"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the user should see a confirmation message",
+            "match": {
+              "location": "features\\step_definitions\\user_registration_steps.js:36"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "user-registration;registration-failure-due-to-invalid-email-format",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Registration failure due to invalid email format",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the user is on the registration page",
+            "match": {
+              "location": "features\\step_definitions\\user_registration_steps.js:4"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 210000,
+              "error_message": "ReferenceError: page is not defined\n    at World.<anonymous> (C:\\Users\\SrinjoySur\\Personal_Practice\\AI_Demonstration\\features\\step_definitions\\user_registration_steps.js:5:3)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "the user enters an invalid email format",
+            "match": {
+              "location": "features\\step_definitions\\user_registration_steps.js:13"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "the user submits the registration form",
+            "match": {
+              "location": "features\\step_definitions\\user_registration_steps.js:28"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "the user should see an error message indicating the email is invalid",
+            "match": {
+              "location": "features\\step_definitions\\user_registration_steps.js:41"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "user-registration;registration-failure-due-to-weak-password",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Registration failure due to weak password",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "the user is on the registration page",
+            "match": {
+              "location": "features\\step_definitions\\user_registration_steps.js:4"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 305399,
+              "error_message": "ReferenceError: page is not defined\n    at World.<anonymous> (C:\\Users\\SrinjoySur\\Personal_Practice\\AI_Demonstration\\features\\step_definitions\\user_registration_steps.js:5:3)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "the user enters a password that does not meet the requirements",
+            "match": {
+              "location": "features\\step_definitions\\user_registration_steps.js:18"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "the user submits the registration form",
+            "match": {
+              "location": "features\\step_definitions\\user_registration_steps.js:28"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "the user should see an error message indicating the password requirements",
+            "match": {
+              "location": "features\\step_definitions\\user_registration_steps.js:46"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "user-registration;registration-failure-due-to-already-registered-email",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Registration failure due to already registered email",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "the user is on the registration page",
+            "match": {
+              "location": "features\\step_definitions\\user_registration_steps.js:4"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 259700,
+              "error_message": "ReferenceError: page is not defined\n    at World.<anonymous> (C:\\Users\\SrinjoySur\\Personal_Practice\\AI_Demonstration\\features\\step_definitions\\user_registration_steps.js:5:3)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "the user enters an email that is already registered",
+            "match": {
+              "location": "features\\step_definitions\\user_registration_steps.js:23"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "the user submits the registration form",
+            "match": {
+              "location": "features\\step_definitions\\user_registration_steps.js:28"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "the user should see an error message indicating the email is already registered",
+            "match": {
+              "location": "features\\step_definitions\\user_registration_steps.js:51"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "user-registration",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "User Registration",
+    "tags": [],
+    "uri": "features\\user_registration.feature"
+  }
+]

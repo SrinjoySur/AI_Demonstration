@@ -1,0 +1,25 @@
+{
+  "name": "ai_demonstration",
+  "version": "1.0.0",
+  "description": "Repository to demonstrate AI project capabilities",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SrinjoySur/AI_Demonstration.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SrinjoySur/AI_Demonstration/issues"
+  },
+  "homepage": "https://github.com/SrinjoySur/AI_Demonstration#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.3.1"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^12.2.0"
+  }
+}
