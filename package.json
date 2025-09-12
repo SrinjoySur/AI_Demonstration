@@ -1,0 +1,27 @@
+{
+  "name": "automation-exercise-tests",
+  "version": "1.0.0",
+  "description": "Test automation for AutomationExercise.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:home": "cucumber-js features/home_page_edge_cases.feature",
+    "report": "node report-generator.js"
+  },
+  "keywords": [
+    "automation",
+    "testing",
+    "cucumber",
+    "bdd"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^8.0.0",
+    "chai": "^4.3.4",
+    "puppeteer": "^13.0.0"
+  },
+  "devDependencies": {
+    "cucumber-html-reporter": "^5.5.0"
+  }
+}
