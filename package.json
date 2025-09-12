@@ -1,0 +1,49 @@
+{
+  "name": "automation-exercise-bdd-tests",
+  "version": "1.0.0",
+  "description": "BDD Test Suite for AutomationExercise.com using Playwright and Cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:smoke": "cucumber-js --tags @smoke",
+    "test:regression": "cucumber-js --tags @regression",
+    "test:user-auth": "cucumber-js --tags @user-authentication",
+    "test:products": "cucumber-js --tags @product-browsing",
+    "test:cart": "cucumber-js --tags @shopping-cart",
+    "test:checkout": "cucumber-js --tags @checkout",
+    "test:contact": "cucumber-js --tags @contact-form",
+    "test:parallel": "cucumber-js --parallel 4",
+    "test:report": "cucumber-js --format html:reports/cucumber-report.html",
+    "test:json": "cucumber-js --format json:reports/cucumber-report.json",
+    "clean": "rimraf reports allure-results",
+    "allure:generate": "allure generate allure-results --clean -o allure-report",
+    "allure:open": "allure open allure-report",
+    "lint": "eslint features/ --ext .js",
+    "format": "prettier --write features/"
+  },
+  "keywords": [
+    "automation",
+    "testing",
+    "bdd",
+    "cucumber",
+    "playwright",
+    "e2e"
+  ],
+  "author": "AI Demonstration Team",
+  "license": "MIT",
+  "dependencies": {
+    "@cucumber/cucumber": "^10.0.1",
+    "@playwright/test": "^1.40.0",
+    "playwright": "^1.40.0"
+  },
+  "devDependencies": {
+    "allure-commandline": "^2.24.1",
+    "allure-cucumberjs": "^2.5.0",
+    "eslint": "^8.55.0",
+    "prettier": "^3.1.0",
+    "rimraf": "^5.0.5"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
