@@ -1,43 +1,22 @@
 {
-
-    "default": {
-
-        "paths": [
-
-            "features/"
-
-        ],
-
-        "require": [
-
-            "steps/*.js"
-
-        ],
-
-        "formatOptions": {
-
-            "snippetInterface": "async-await"
-
-        },
-
-        "format": [
-
-            [
-
-                "html",
-
-                "cucumber-report.html"
-
-            ],
-
-            "summary",
-
-            "progress-bar",
-
-            "json:./cucumber-report.json"
-
-        ]
-
-    }
-
+  "default": {
+    "paths": [
+      "com.automationexercise/features"
+    ],
+    "require": [
+      "com.automationexercise/steps/*.js"
+    ],
+    "formatOptions": {
+      "snippetInterface": "async-await"
+    },
+    "format": [
+      [
+        "html",
+        "com.automationexercise/cucumber-report.html"
+      ],
+      "summary",
+      "progress-bar",
+      "json:./com.automationexercise/cucumber-report.json"
+    ]
+  }
 }
