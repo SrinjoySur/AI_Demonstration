@@ -8,6 +8,7 @@ Structure:
 - support/: World, hooks and configuration
 
 Usage:
+- cd com.automationexercise
 - npm install
-- npx cucumber-js --config com.automationexercise/cucumber.json
+- npx cucumber-js --config cucumber.json
 
