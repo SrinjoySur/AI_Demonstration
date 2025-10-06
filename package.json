@@ -1,0 +1,19 @@
+{
+  "name": "ai_demonstration-e2e",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright TypeScript end-to-end tests for automationexercise.com",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "codegen": "playwright codegen https://automationexercise.com/",
+    "install:browsers": "playwright install --with-deps",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.2",
+    "typescript": "^5.5.4",
+    "ts-node": "^10.9.2",
+    "prettier": "^3.3.3"
+  }
+}
