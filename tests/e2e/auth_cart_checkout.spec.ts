@@ -79,8 +79,7 @@ test.describe('User Authentication and Shopping Cart', () => {
     await addProductToCart(page, productName);
 
     // Then the cart badge shows "1"
-    const cartBadge = page.locator('#cart .badge, .fa-shopping-cart ~ span');
-    // Some sites use different selectors; validate by cart table count
+    // The site shows cart contents in table; validate by row count
     await expect(page.locator('table.cart_table tbody tr')).toHaveCount(1);
 
     // And the cart subtotal shows "$25.00" -> site: $500.00
